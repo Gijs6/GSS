@@ -1,0 +1,1186 @@
+{
+    "display": {
+        "Cat": "1",
+        "Index": "1"
+    },
+    "visibility": {
+        "Cat": "1",
+        "Index": "2"
+    },
+    "position": {
+        "Cat": "1",
+        "Index": "3"
+    },
+    "top": {
+        "Cat": "1",
+        "Index": "4"
+    },
+    "right": {
+        "Cat": "1",
+        "Index": "5"
+    },
+    "bottom": {
+        "Cat": "1",
+        "Index": "6"
+    },
+    "left": {
+        "Cat": "1",
+        "Index": "7"
+    },
+    "z-index": {
+        "Cat": "1",
+        "Index": "8"
+    },
+    "float": {
+        "Cat": "1",
+        "Index": "9"
+    },
+    "clear": {
+        "Cat": "1",
+        "Index": "10"
+    },
+    "clip": {
+        "Cat": "1",
+        "Index": "11"
+    },
+    "inset": {
+        "Cat": "1",
+        "Index": "12"
+    },
+    "inset-inline": {
+        "Cat": "1",
+        "Index": "13"
+    },
+    "inset-block": {
+        "Cat": "1",
+        "Index": "14"
+    },
+    "inset-inline-start": {
+        "Cat": "1",
+        "Index": "15"
+    },
+    "inset-block-start": {
+        "Cat": "1",
+        "Index": "16"
+    },
+    "inset-inline-end": {
+        "Cat": "1",
+        "Index": "17"
+    },
+    "inset-block-end": {
+        "Cat": "1",
+        "Index": "18"
+    },
+    "aspect-ratio": {
+        "Cat": "1",
+        "Index": "19"
+    },
+    "overflow": {
+        "Cat": "1",
+        "Index": "20"
+    },
+    "overflow-x": {
+        "Cat": "1",
+        "Index": "21"
+    },
+    "overflow-y": {
+        "Cat": "1",
+        "Index": "22"
+    },
+    "overflow-wrap": {
+        "Cat": "1",
+        "Index": "23"
+    },
+    "overflow-anchor": {
+        "Cat": "1",
+        "Index": "24"
+    },
+    "object-fit": {
+        "Cat": "1",
+        "Index": "25"
+    },
+    "object-position": {
+        "Cat": "1",
+        "Index": "26"
+    },
+    "box-sizing": {
+        "Cat": "1",
+        "Index": "27"
+    },
+    "table-layout": {
+        "Cat": "1",
+        "Index": "28"
+    },
+    "resize": {
+        "Cat": "1",
+        "Index": "29"
+    },
+    "grid": {
+        "Cat": "1",
+        "Index": "30"
+    },
+    "grid-area": {
+        "Cat": "1",
+        "Index": "31"
+    },
+    "grid-template": {
+        "Cat": "1",
+        "Index": "32"
+    },
+    "grid-template-rows": {
+        "Cat": "1",
+        "Index": "33"
+    },
+    "grid-template-columns": {
+        "Cat": "1",
+        "Index": "34"
+    },
+    "grid-template-areas": {
+        "Cat": "1",
+        "Index": "35"
+    },
+    "grid-auto-flow": {
+        "Cat": "1",
+        "Index": "36"
+    },
+    "grid-auto-rows": {
+        "Cat": "1",
+        "Index": "37"
+    },
+    "grid-auto-columns": {
+        "Cat": "1",
+        "Index": "38"
+    },
+    "grid-column": {
+        "Cat": "1",
+        "Index": "39"
+    },
+    "grid-column-start": {
+        "Cat": "1",
+        "Index": "40"
+    },
+    "grid-column-end": {
+        "Cat": "1",
+        "Index": "41"
+    },
+    "grid-row": {
+        "Cat": "1",
+        "Index": "42"
+    },
+    "grid-row-start": {
+        "Cat": "1",
+        "Index": "43"
+    },
+    "grid-row-end": {
+        "Cat": "1",
+        "Index": "44"
+    },
+    "gap": {
+        "Cat": "1",
+        "Index": "45"
+    },
+    "row-gap": {
+        "Cat": "1",
+        "Index": "46"
+    },
+    "column-gap": {
+        "Cat": "1",
+        "Index": "47"
+    },
+    "columns": {
+        "Cat": "1",
+        "Index": "48"
+    },
+    "column-width": {
+        "Cat": "1",
+        "Index": "49"
+    },
+    "column-count": {
+        "Cat": "1",
+        "Index": "50"
+    },
+    "column-rule": {
+        "Cat": "1",
+        "Index": "51"
+    },
+    "column-rule-width": {
+        "Cat": "1",
+        "Index": "52"
+    },
+    "column-rule-style": {
+        "Cat": "1",
+        "Index": "53"
+    },
+    "column-span": {
+        "Cat": "1",
+        "Index": "54"
+    },
+    "column-fill": {
+        "Cat": "1",
+        "Index": "55"
+    },
+    "flex": {
+        "Cat": "1",
+        "Index": "56"
+    },
+    "flex-direction": {
+        "Cat": "1",
+        "Index": "57"
+    },
+    "flex-wrap": {
+        "Cat": "1",
+        "Index": "58"
+    },
+    "flex-flow": {
+        "Cat": "1",
+        "Index": "59"
+    },
+    "flex-basis": {
+        "Cat": "1",
+        "Index": "60"
+    },
+    "flex-grow": {
+        "Cat": "1",
+        "Index": "61"
+    },
+    "flex-shrink": {
+        "Cat": "1",
+        "Index": "62"
+    },
+    "order": {
+        "Cat": "1",
+        "Index": "63"
+    },
+    "justify-content": {
+        "Cat": "1",
+        "Index": "64"
+    },
+    "justify-items": {
+        "Cat": "1",
+        "Index": "65"
+    },
+    "justify-self": {
+        "Cat": "1",
+        "Index": "66"
+    },
+    "align-content": {
+        "Cat": "1",
+        "Index": "67"
+    },
+    "align-items": {
+        "Cat": "1",
+        "Index": "68"
+    },
+    "align-self": {
+        "Cat": "1",
+        "Index": "69"
+    },
+    "place-self": {
+        "Cat": "1",
+        "Index": "70"
+    },
+    "place-items": {
+        "Cat": "1",
+        "Index": "71"
+    },
+    "place-content": {
+        "Cat": "1",
+        "Index": "72"
+    },
+    "background": {
+        "Cat": "2",
+        "Index": "73"
+    },
+    "background-color": {
+        "Cat": "2",
+        "Index": "74"
+    },
+    "background-image": {
+        "Cat": "2",
+        "Index": "75"
+    },
+    "background-size": {
+        "Cat": "2",
+        "Index": "76"
+    },
+    "background-position": {
+        "Cat": "2",
+        "Index": "77"
+    },
+    "background-position-x": {
+        "Cat": "2",
+        "Index": "78"
+    },
+    "background-position-y": {
+        "Cat": "2",
+        "Index": "79"
+    },
+    "background-clip": {
+        "Cat": "2",
+        "Index": "80"
+    },
+    "background-origin": {
+        "Cat": "2",
+        "Index": "81"
+    },
+    "background-attachment": {
+        "Cat": "2",
+        "Index": "82"
+    },
+    "background-blend-mode": {
+        "Cat": "2",
+        "Index": "83"
+    },
+    "background-repeat": {
+        "Cat": "2",
+        "Index": "84"
+    },
+    "mask": {
+        "Cat": "2",
+        "Index": "85"
+    },
+    "mask-image": {
+        "Cat": "2",
+        "Index": "86"
+    },
+    "mask-size": {
+        "Cat": "2",
+        "Index": "87"
+    },
+    "mask-mode": {
+        "Cat": "2",
+        "Index": "88"
+    },
+    "mask-origin": {
+        "Cat": "2",
+        "Index": "89"
+    },
+    "mask-position": {
+        "Cat": "2",
+        "Index": "90"
+    },
+    "mask-repeat": {
+        "Cat": "2",
+        "Index": "91"
+    },
+    "mask-type": {
+        "Cat": "2",
+        "Index": "92"
+    },
+    "mask-composite": {
+        "Cat": "2",
+        "Index": "93"
+    },
+    "opacity": {
+        "Cat": "2",
+        "Index": "94"
+    },
+    "mix-blend-mode": {
+        "Cat": "2",
+        "Index": "95"
+    },
+    "box-shadow": {
+        "Cat": "2",
+        "Index": "96"
+    },
+    "border": {
+        "Cat": "2",
+        "Index": "97"
+    },
+    "border-width": {
+        "Cat": "2",
+        "Index": "98"
+    },
+    "border-top": {
+        "Cat": "2",
+        "Index": "99"
+    },
+    "border-right": {
+        "Cat": "2",
+        "Index": "100"
+    },
+    "border-left": {
+        "Cat": "2",
+        "Index": "101"
+    },
+    "border-bottom": {
+        "Cat": "2",
+        "Index": "102"
+    },
+    "border-inline": {
+        "Cat": "2",
+        "Index": "103"
+    },
+    "border-inline-start": {
+        "Cat": "2",
+        "Index": "104"
+    },
+    "border-inline-end": {
+        "Cat": "2",
+        "Index": "105"
+    },
+    "border-block": {
+        "Cat": "2",
+        "Index": "106"
+    },
+    "border-block-start": {
+        "Cat": "2",
+        "Index": "107"
+    },
+    "border-block-end": {
+        "Cat": "2",
+        "Index": "108"
+    },
+    "border-color": {
+        "Cat": "2",
+        "Index": "109"
+    },
+    "border-top-color": {
+        "Cat": "2",
+        "Index": "110"
+    },
+    "border-right-color": {
+        "Cat": "2",
+        "Index": "111"
+    },
+    "border-left-color": {
+        "Cat": "2",
+        "Index": "112"
+    },
+    "border-bottom-color": {
+        "Cat": "2",
+        "Index": "113"
+    },
+    "border-inline-color": {
+        "Cat": "2",
+        "Index": "114"
+    },
+    "border-block-color": {
+        "Cat": "2",
+        "Index": "115"
+    },
+    "border-inline-start-color": {
+        "Cat": "2",
+        "Index": "116"
+    },
+    "border-inline-end-color": {
+        "Cat": "2",
+        "Index": "117"
+    },
+    "border-block-start-color": {
+        "Cat": "2",
+        "Index": "118"
+    },
+    "border-block-end-color": {
+        "Cat": "2",
+        "Index": "119"
+    },
+    "border-style": {
+        "Cat": "2",
+        "Index": "120"
+    },
+    "border-top-style": {
+        "Cat": "2",
+        "Index": "121"
+    },
+    "border-right-style": {
+        "Cat": "2",
+        "Index": "122"
+    },
+    "border-left-style": {
+        "Cat": "2",
+        "Index": "123"
+    },
+    "border-bottom-style": {
+        "Cat": "2",
+        "Index": "154"
+    },
+    "border-inline-style": {
+        "Cat": "2",
+        "Index": "155"
+    },
+    "border-block-style": {
+        "Cat": "2",
+        "Index": "156"
+    },
+    "border-inline-start-style": {
+        "Cat": "2",
+        "Index": "157"
+    },
+    "border-inline-end-style": {
+        "Cat": "2",
+        "Index": "158"
+    },
+    "border-block-start-style": {
+        "Cat": "2",
+        "Index": "159"
+    },
+    "border-block-end-style": {
+        "Cat": "2",
+        "Index": "160"
+    },
+    "border-radius": {
+        "Cat": "2",
+        "Index": "161"
+    },
+    "border-top-left-radius": {
+        "Cat": "2",
+        "Index": "162"
+    },
+    "border-top-right-radius": {
+        "Cat": "2",
+        "Index": "163"
+    },
+    "border-bottom-left-radius": {
+        "Cat": "2",
+        "Index": "164"
+    },
+    "border-bottom-right-radius": {
+        "Cat": "2",
+        "Index": "165"
+    },
+    "border-image": {
+        "Cat": "2",
+        "Index": "166"
+    },
+    "border-image-source": {
+        "Cat": "2",
+        "Index": "167"
+    },
+    "border-image-slice": {
+        "Cat": "2",
+        "Index": "168"
+    },
+    "border-image-width": {
+        "Cat": "2",
+        "Index": "169"
+    },
+    "border-image-outset": {
+        "Cat": "2",
+        "Index": "170"
+    },
+    "border-image-repeat": {
+        "Cat": "2",
+        "Index": "171"
+    },
+    "outline": {
+        "Cat": "2",
+        "Index": "172"
+    },
+    "outline-color": {
+        "Cat": "2",
+        "Index": "173"
+    },
+    "outline-width": {
+        "Cat": "2",
+        "Index": "174"
+    },
+    "outline-style": {
+        "Cat": "2",
+        "Index": "175"
+    },
+    "outline-offset": {
+        "Cat": "2",
+        "Index": "176"
+    },
+    "box-decoration-break": {
+        "Cat": "2",
+        "Index": "177"
+    },
+    "scrollbar-color": {
+        "Cat": "2",
+        "Index": "178"
+    },
+    "accent-color": {
+        "Cat": "2",
+        "Index": "179"
+    },
+    "caret-color": {
+        "Cat": "2",
+        "Index": "180"
+    },
+    "text-emphasis-color": {
+        "Cat": "2",
+        "Index": "181"
+    },
+    "column-rule-color": {
+        "Cat": "2",
+        "Index": "182"
+    },
+    "color": {
+        "Cat": "2",
+        "Index": "183"
+    },
+    "padding": {
+        "Cat": "3",
+        "Index": "184"
+    },
+    "padding-top": {
+        "Cat": "3",
+        "Index": "185"
+    },
+    "padding-right": {
+        "Cat": "3",
+        "Index": "186"
+    },
+    "padding-bottom": {
+        "Cat": "3",
+        "Index": "187"
+    },
+    "padding-left": {
+        "Cat": "3",
+        "Index": "188"
+    },
+    "padding-inline": {
+        "Cat": "3",
+        "Index": "189"
+    },
+    "padding-block": {
+        "Cat": "3",
+        "Index": "190"
+    },
+    "padding-inline-start": {
+        "Cat": "3",
+        "Index": "191"
+    },
+    "padding-block-start": {
+        "Cat": "3",
+        "Index": "192"
+    },
+    "padding-inline-end": {
+        "Cat": "3",
+        "Index": "193"
+    },
+    "padding-block-end": {
+        "Cat": "3",
+        "Index": "194"
+    },
+    "margin": {
+        "Cat": "3",
+        "Index": "195"
+    },
+    "margin-top": {
+        "Cat": "3",
+        "Index": "196"
+    },
+    "margin-right": {
+        "Cat": "3",
+        "Index": "197"
+    },
+    "margin-bottom": {
+        "Cat": "3",
+        "Index": "198"
+    },
+    "margin-left": {
+        "Cat": "3",
+        "Index": "199"
+    },
+    "margin-inline": {
+        "Cat": "3",
+        "Index": "200"
+    },
+    "margin-block": {
+        "Cat": "3",
+        "Index": "201"
+    },
+    "margin-inline-start": {
+        "Cat": "3",
+        "Index": "202"
+    },
+    "margin-block-start": {
+        "Cat": "3",
+        "Index": "203"
+    },
+    "margin-inline-end": {
+        "Cat": "3",
+        "Index": "204"
+    },
+    "margin-block-end": {
+        "Cat": "3",
+        "Index": "205"
+    },
+    "scroll-margin": {
+        "Cat": "3",
+        "Index": "206"
+    },
+    "scroll-margin-top": {
+        "Cat": "3",
+        "Index": "207"
+    },
+    "scroll-margin-right": {
+        "Cat": "3",
+        "Index": "208"
+    },
+    "scroll-margin-bottom": {
+        "Cat": "3",
+        "Index": "209"
+    },
+    "scroll-margin-left": {
+        "Cat": "3",
+        "Index": "210"
+    },
+    "scroll-margin-inline": {
+        "Cat": "3",
+        "Index": "211"
+    },
+    "scroll-margin-inline-start": {
+        "Cat": "3",
+        "Index": "212"
+    },
+    "scroll-margin-inline-end": {
+        "Cat": "3",
+        "Index": "213"
+    },
+    "scroll-margin-block": {
+        "Cat": "3",
+        "Index": "214"
+    },
+    "scroll-margin-block-start": {
+        "Cat": "3",
+        "Index": "215"
+    },
+    "scroll-margin-block-end": {
+        "Cat": "3",
+        "Index": "216"
+    },
+    "scroll-padding": {
+        "Cat": "3",
+        "Index": "217"
+    },
+    "scroll-padding-top": {
+        "Cat": "3",
+        "Index": "218"
+    },
+    "scroll-padding-right": {
+        "Cat": "3",
+        "Index": "219"
+    },
+    "scroll-padding-bottom": {
+        "Cat": "3",
+        "Index": "220"
+    },
+    "scroll-padding-left": {
+        "Cat": "3",
+        "Index": "221"
+    },
+    "scroll-padding-inline": {
+        "Cat": "3",
+        "Index": "222"
+    },
+    "scroll-padding-inline-start": {
+        "Cat": "3",
+        "Index": "223"
+    },
+    "scroll-padding-inline-end": {
+        "Cat": "3",
+        "Index": "224"
+    },
+    "scroll-padding-block": {
+        "Cat": "3",
+        "Index": "225"
+    },
+    "scroll-padding-block-start": {
+        "Cat": "3",
+        "Index": "226"
+    },
+    "scroll-padding-block-end": {
+        "Cat": "3",
+        "Index": "227"
+    },
+    "animation": {
+        "Cat": "4",
+        "Index": "228"
+    },
+    "animation-name": {
+        "Cat": "4",
+        "Index": "229"
+    },
+    "animation-duration": {
+        "Cat": "4",
+        "Index": "230"
+    },
+    "animation-delay": {
+        "Cat": "4",
+        "Index": "231"
+    },
+    "animation-direction": {
+        "Cat": "4",
+        "Index": "232"
+    },
+    "animation-timing-function": {
+        "Cat": "4",
+        "Index": "233"
+    },
+    "animation-fill-mode": {
+        "Cat": "4",
+        "Index": "234"
+    },
+    "animation-iteration-count": {
+        "Cat": "4",
+        "Index": "235"
+    },
+    "animation-play-state": {
+        "Cat": "4",
+        "Index": "236"
+    },
+    "transition": {
+        "Cat": "4",
+        "Index": "237"
+    },
+    "transition-property": {
+        "Cat": "4",
+        "Index": "238"
+    },
+    "transition-duration": {
+        "Cat": "4",
+        "Index": "239"
+    },
+    "transition-delay": {
+        "Cat": "4",
+        "Index": "240"
+    },
+    "transition-timing-function": {
+        "Cat": "4",
+        "Index": "241"
+    },
+    "offset": {
+        "Cat": "4",
+        "Index": "242"
+    },
+    "offset-anchor": {
+        "Cat": "4",
+        "Index": "243"
+    },
+    "offset-distance": {
+        "Cat": "4",
+        "Index": "244"
+    },
+    "offset-path": {
+        "Cat": "4",
+        "Index": "245"
+    },
+    "offset-position": {
+        "Cat": "4",
+        "Index": "246"
+    },
+    "offset-rotate": {
+        "Cat": "4",
+        "Index": "247"
+    },
+    "scroll-behavior": {
+        "Cat": "4",
+        "Index": "248"
+    },
+    "scroll-snap-align": {
+        "Cat": "4",
+        "Index": "249"
+    },
+    "scroll-snap-stop": {
+        "Cat": "4",
+        "Index": "250"
+    },
+    "scroll-snap-type": {
+        "Cat": "4",
+        "Index": "251"
+    },
+    "font": {
+        "Cat": "5",
+        "Index": "252"
+    },
+    "font-family": {
+        "Cat": "5",
+        "Index": "253"
+    },
+    "font-size": {
+        "Cat": "5",
+        "Index": "254"
+    },
+    "font-size-adjust": {
+        "Cat": "5",
+        "Index": "255"
+    },
+    "font-style": {
+        "Cat": "5",
+        "Index": "256"
+    },
+    "font-variant": {
+        "Cat": "5",
+        "Index": "257"
+    },
+    "font-variant-ligatures": {
+        "Cat": "5",
+        "Index": "258"
+    },
+    "font-variant-position": {
+        "Cat": "5",
+        "Index": "259"
+    },
+    "font-variant-numeric": {
+        "Cat": "5",
+        "Index": "260"
+    },
+    "font-variant-east-asian": {
+        "Cat": "5",
+        "Index": "261"
+    },
+    "font-variant-caps": {
+        "Cat": "5",
+        "Index": "262"
+    },
+    "font-variant-alternates": {
+        "Cat": "5",
+        "Index": "263"
+    },
+    "font-kerning": {
+        "Cat": "5",
+        "Index": "264"
+    },
+    "font-language-override": {
+        "Cat": "5",
+        "Index": "265"
+    },
+    "font-stretch": {
+        "Cat": "5",
+        "Index": "266"
+    },
+    "font-synthesis": {
+        "Cat": "5",
+        "Index": "267"
+    },
+    "font-weight": {
+        "Cat": "5",
+        "Index": "268"
+    },
+    "text-align": {
+        "Cat": "5",
+        "Index": "269"
+    },
+    "text-align-last": {
+        "Cat": "5",
+        "Index": "270"
+    },
+    "text-decoration": {
+        "Cat": "5",
+        "Index": "271"
+    },
+    "text-decoration-line": {
+        "Cat": "5",
+        "Index": "272"
+    },
+    "text-decoration-color": {
+        "Cat": "5",
+        "Index": "273"
+    },
+    "text-decoration-style": {
+        "Cat": "5",
+        "Index": "274"
+    },
+    "text-decoration-thickness": {
+        "Cat": "5",
+        "Index": "275"
+    },
+    "text-underline-offset": {
+        "Cat": "5",
+        "Index": "276"
+    },
+    "text-underline-position": {
+        "Cat": "5",
+        "Index": "277"
+    },
+    "text-combine-upright": {
+        "Cat": "5",
+        "Index": "278"
+    },
+    "text-emphasis": {
+        "Cat": "5",
+        "Index": "279"
+    },
+    "text-emphasis-style": {
+        "Cat": "5",
+        "Index": "280"
+    },
+    "text-emphasis-position": {
+        "Cat": "5",
+        "Index": "281"
+    },
+    "text-indent": {
+        "Cat": "5",
+        "Index": "282"
+    },
+    "text-justify": {
+        "Cat": "5",
+        "Index": "283"
+    },
+    "text-overflow": {
+        "Cat": "5",
+        "Index": "284"
+    },
+    "text-shadow": {
+        "Cat": "5",
+        "Index": "285"
+    },
+    "text-transform": {
+        "Cat": "5",
+        "Index": "286"
+    },
+    "text-orientation": {
+        "Cat": "5",
+        "Index": "287"
+    },
+    "letter-spacing": {
+        "Cat": "5",
+        "Index": "288"
+    },
+    "line-height": {
+        "Cat": "5",
+        "Index": "289"
+    },
+    "word-spacing": {
+        "Cat": "5",
+        "Index": "290"
+    },
+    "word-break": {
+        "Cat": "5",
+        "Index": "291"
+    },
+    "word-wrap": {
+        "Cat": "5",
+        "Index": "292"
+    },
+    "writing-mode": {
+        "Cat": "5",
+        "Index": "293"
+    },
+    "direction": {
+        "Cat": "5",
+        "Index": "294"
+    },
+    "unicode-bidi": {
+        "Cat": "5",
+        "Index": "295"
+    },
+    "vertical-align": {
+        "Cat": "5",
+        "Index": "296"
+    },
+    "hyphens": {
+        "Cat": "5",
+        "Index": "297"
+    },
+    "hanging-punctuation": {
+        "Cat": "5",
+        "Index": "298"
+    },
+    "quotes": {
+        "Cat": "5",
+        "Index": "299"
+    },
+    "white-space": {
+        "Cat": "5",
+        "Index": "300"
+    },
+    "tab-size": {
+        "Cat": "5",
+        "Index": "301"
+    },
+    "counter-increment": {
+        "Cat": "5",
+        "Index": "302"
+    },
+    "counter-reset": {
+        "Cat": "5",
+        "Index": "303"
+    },
+    "counter-set": {
+        "Cat": "5",
+        "Index": "304"
+    },
+    "cursor": {
+        "Cat": "6",
+        "Index": "305"
+    },
+    "pointer-events": {
+        "Cat": "6",
+        "Index": "306"
+    },
+    "isolation": {
+        "Cat": "6",
+        "Index": "307"
+    },
+    "zoom": {
+        "Cat": "6",
+        "Index": "308"
+    },
+    "backface-visibility": {
+        "Cat": "6",
+        "Index": "309"
+    },
+    "perspective": {
+        "Cat": "6",
+        "Index": "310"
+    },
+    "perspective-origin": {
+        "Cat": "6",
+        "Index": "311"
+    },
+    "transform": {
+        "Cat": "6",
+        "Index": "312"
+    },
+    "transform-origin": {
+        "Cat": "6",
+        "Index": "313"
+    },
+    "transform-style": {
+        "Cat": "6",
+        "Index": "314"
+    },
+    "translate": {
+        "Cat": "6",
+        "Index": "315"
+    },
+    "rotate": {
+        "Cat": "6",
+        "Index": "316"
+    },
+    "scale": {
+        "Cat": "6",
+        "Index": "317"
+    },
+    "list-style": {
+        "Cat": "6",
+        "Index": "318"
+    },
+    "list-style-type": {
+        "Cat": "6",
+        "Index": "319"
+    },
+    "list-style-position": {
+        "Cat": "6",
+        "Index": "320"
+    },
+    "list-style-image": {
+        "Cat": "6",
+        "Index": "321"
+    },
+    "page-break-before": {
+        "Cat": "6",
+        "Index": "322"
+    },
+    "page-break-after": {
+        "Cat": "6",
+        "Index": "323"
+    },
+    "page-break-inside": {
+        "Cat": "6",
+        "Index": "324"
+    },
+    "widows": {
+        "Cat": "6",
+        "Index": "325"
+    },
+    "orphans": {
+        "Cat": "6",
+        "Index": "326"
+    }
+}
