@@ -1,6 +1,8 @@
 #bollen {
-	position: relative;
-	min-height: 75vh;
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #naamtextbox {
@@ -10,6 +12,7 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	text-align: center;
 }
 
 canvas {
@@ -61,7 +64,8 @@ canvas {
     gap: 15px;
     flex-grow: 1;
     border-radius: 30px;
-    max-width: 40%;
+    transition: 300ms all ease-in-out;
+    flex-wrap: wrap;
 }
 
 .pagitemrechts {
@@ -91,8 +95,12 @@ canvas {
     font-size: 1.35em;
 }
 
+.pagitemtextimgb1 {
+    font-weight: 500;
+}
+
 .pagitemtextimgb2 {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .pagitemtextlink {
@@ -101,4 +109,8 @@ canvas {
 
 .pagitemrechts img.Deels {
     aspect-ratio: 7/10;
+}
+
+.pagitem:hover {
+    transform: scale(1.025);
 }

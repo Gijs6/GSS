@@ -1,13 +1,40 @@
 import json
+from bs4 import BeautifulSoup
+import re
 
 with open("testdata.css") as file:
     css_data = file.read()
+
+with open("testdata.html", encoding="utf-8") as file:
+    html_content = file.read()
+
+# Parse and prettify
+soup = BeautifulSoup(html_content, "html.parser")
+formatted_html = soup.prettify()
 
 css_data = "".join(css_data.splitlines())
 
 splits = css_data.split("}")
 
 css_nice = []
+
+
+def selectortolinenumber(selector):
+    elements = soup.select(selector)
+
+    if not elements:
+        return 1000000000000
+
+    first_element = elements[0]
+    element_str = str(first_element)
+
+    lines = html_content.split('\n')
+
+    for i, line in enumerate(lines, start=1):
+        if re.search(re.escape(element_str.strip()), line.strip()):
+            return i
+
+    return None
 
 
 with open("order.json") as orderfile:
@@ -38,6 +65,7 @@ for item in splits:
 
         css_nice.append({
             "selector": selectorstuff,
+            "selectorsort": selectortolinenumber(selectorstuff),
             "styles": all_propertys_with_values_nice_sorted
         })
 
