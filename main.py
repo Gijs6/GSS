@@ -9,9 +9,6 @@ with open("testdata.css") as file:
 with open("testdata.html", encoding="utf-8") as file:
     html_content = file.read()
 
-
-
-
 lines = html_content.splitlines()
 
 soup = BeautifulSoup(html_content, "html.parser")
@@ -23,9 +20,10 @@ def selectortolinenumber(selector):
     element = soup.select_one(selector)
 
     if not element:
-        return None
+        return 1000000
 
-    indexstuff = htmldatastuff.find("".join([line.strip() for line in str(element).splitlines()]).replace('\n', '').replace('\r', ''))
+    indexstuff = htmldatastuff.find(
+        "".join([line.strip() for line in str(element).splitlines()]).replace('\n', '').replace('\r', ''))
 
     return indexstuff
 
@@ -49,12 +47,11 @@ for item in splits:
             all_propertys_with_values_nice.append({
                 "property": prop_this_prop,
                 "value": itemsplitstuff[1].strip(),
-                "oderdata": orderdata.get(prop_this_prop)
+                "oderdata": orderdata.get(prop_this_prop, {"Cat": "10000", "Index": "10000"})
             })
-        all_propertys_with_values_nice_sorted = all_propertys_with_values_nice.sort(
-            key=lambda s: int(s["oderdata"]["Index"]) if s.get("oderdata") and s["oderdata"].get("Index") else float(
-                'inf')
-        )
+
+        all_propertys_with_values_nice_sorted = sorted(all_propertys_with_values_nice,
+                                                       key=lambda s: int(s["oderdata"]["Index"]))
 
         css_nice.append({
             "selector": selectorstuff,
@@ -62,9 +59,12 @@ for item in splits:
             "styles": all_propertys_with_values_nice_sorted
         })
 
+css_data_sorted = sorted(css_nice, key=lambda s: s["selectorsort"])
 
 
-css_data_sorted = css_nice.sort(key=lambda s: int(s["selectorsort"]) if s.get("selectorsort") else float('inf'))
-
-open = "{"
-close = "}"
+for block in css_data_sorted:
+    print(f"{block['selector']} {{")
+    for style in block["styles"]:
+        print(f"   {style['property']}: {style['value']};")
+    print("}")
+    print("")
