@@ -1,12 +1,12 @@
 import json
 from bs4 import BeautifulSoup
 
-# Change to input from user
+# Change to input from user!!!!!!
 
-with open("testdata.css") as file:
+with open("testdata/testdata.css") as file:
     css_data = file.read()
 
-with open("testdata.html", encoding="utf-8") as file:
+with open("testdata/testdata.html", encoding="utf-8") as file:
     html_content = file.read()
 
 lines = html_content.splitlines()
@@ -17,7 +17,12 @@ htmldatastuff = "".join([line.strip() for line in str(soup).splitlines()]).repla
 
 
 def selectortolinenumber(selector):
-    element = soup.select_one(selector)
+    if ":hover" in selector:
+        element = soup.select_one(selector.replace(":hover", ""))
+        hoverorderstuff = 1
+    else:
+        element = soup.select_one(selector)
+        hoverorderstuff = 0
 
     if not element:
         return 1000000
@@ -25,7 +30,7 @@ def selectortolinenumber(selector):
     indexstuff = htmldatastuff.find(
         "".join([line.strip() for line in str(element).splitlines()]).replace('\n', '').replace('\r', ''))
 
-    return indexstuff
+    return indexstuff + hoverorderstuff
 
 
 splits = css_data.split("}")
