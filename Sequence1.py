@@ -8,11 +8,15 @@ with open("testdata.css") as file:
 with open("testdata.html", encoding="utf-8") as file:
     html_content = file.read()
 
+
 lines = html_content.splitlines()
 
 # Parse and prettify
 soup = BeautifulSoup(html_content, "html.parser")
 css_data = "".join(css_data.splitlines())
+htmlcontentstuff429 = soup.decode(formatter="html")
+htmldatastuff = "".join([line.strip() for line in str(soup).splitlines()]).replace('\n', '').replace('\r', '')
+print(htmldatastuff)
 
 splits = css_data.split("}")
 
@@ -20,24 +24,24 @@ css_nice = []
 
 
 def selectortolinenumber(selector):
-
-
-    # Zoek het eerste element dat bij de selector past
     element = soup.select_one(selector)
 
-    if element is None:
-        return None  # Geen element gevonden
+    if not element:
+        return None
 
-    # Zoek de tekst van het element in de HTML-string
-    element_str = str(element)
 
-    # Zoek de eerste regel waarin de tag voorkomt
-    for i, line in enumerate(lines, start=1):
-        if element_str in line:
-            return i  # Lijnnummer teruggeven
 
-    return None  # Als het element niet letterlijk in een enkele regel stond
+    print("---")
+    print(f"Element {element}")
+    print(f"et {type(element)}")
+    print(f"strel {str(element)}")
+    print(f"Element2 {str(element).replace('\n', '').replace('\r', '')}")
 
+
+    indexstuff = htmldatastuff.find(str(element).replace('\n', '').replace('\r', '').strip())
+
+    print(f"Indexstuffstuff {indexstuff}")
+    print("---")
 
 with open("order.json") as orderfile:
     orderdata = json.load(orderfile)
@@ -57,7 +61,6 @@ for item in splits:
                 "value": itemsplitstuff[1].strip(),
                 "oderdata": orderdata.get(prop_this_prop)
             })
-        print(all_propertys_with_values_nice)
         all_propertys_with_values_nice_sorted = all_propertys_with_values_nice.sort(
             key=lambda s: int(s["oderdata"]["Index"]) if s.get("oderdata") and s["oderdata"].get("Index") else float(
                 'inf')
@@ -69,17 +72,7 @@ for item in splits:
             "styles": all_propertys_with_values_nice_sorted
         })
 
-print(css_data)
-print()
-print(json.dumps(css_nice, indent=4))
 css_data_sorted = css_nice.sort(key=lambda s: int(s["selectorsort"]) if s.get("selectorsort") else float('inf'))
 
 open = "{"
 close = "}"
-
-for item in css_data_sorted:
-    print(f"{item['selector']} {open}")
-    for style in item["styles"]:
-        print(f"    {style['property']}")
-    print(close)
-    print("")
