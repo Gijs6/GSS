@@ -8,10 +8,10 @@ with open("testdata.css") as file:
 with open("testdata.html", encoding="utf-8") as file:
     html_content = file.read()
 
+lines = html_content.splitlines()
+
 # Parse and prettify
 soup = BeautifulSoup(html_content, "html.parser")
-formatted_html = soup.prettify()
-
 css_data = "".join(css_data.splitlines())
 
 splits = css_data.split("}")
@@ -20,27 +20,27 @@ css_nice = []
 
 
 def selectortolinenumber(selector):
-    elements = soup.select(selector)
 
-    if not elements:
-        return 1000000000000
 
-    first_element = elements[0]
-    element_str = str(first_element)
+    # Zoek het eerste element dat bij de selector past
+    element = soup.select_one(selector)
 
-    lines = html_content.split('\n')
+    if element is None:
+        return None  # Geen element gevonden
 
+    # Zoek de tekst van het element in de HTML-string
+    element_str = str(element)
+
+    # Zoek de eerste regel waarin de tag voorkomt
     for i, line in enumerate(lines, start=1):
-        if re.search(re.escape(element_str.strip()), line.strip()):
-            return i
+        if element_str in line:
+            return i  # Lijnnummer teruggeven
 
-    return None
+    return None  # Als het element niet letterlijk in een enkele regel stond
 
 
 with open("order.json") as orderfile:
     orderdata = json.load(orderfile)
-
-print(orderdata.get("font-size".lower()))
 
 for item in splits:
     if item:
@@ -72,3 +72,14 @@ for item in splits:
 print(css_data)
 print()
 print(json.dumps(css_nice, indent=4))
+css_data_sorted = css_nice.sort(key=lambda s: int(s["selectorsort"]) if s.get("selectorsort") else float('inf'))
+
+open = "{"
+close = "}"
+
+for item in css_data_sorted:
+    print(f"{item['selector']} {open}")
+    for style in item["styles"]:
+        print(f"    {style['property']}")
+    print(close)
+    print("")
