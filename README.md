@@ -10,3 +10,4 @@ _I just typed this so I do not forget the idea 🙃_; https://www.w3.org/Style/C
 - [x] Add support for :hover
 - [ ] If item can't be found in HTML, maybe try to find a other element that is referenced in the selector (such as a + for the sibling selector and stuff)
 - [ ] Fix CSS-order-data-list
+- [ ] Support for :root, html, @import, @media, @keyframes, webkit pseudo stuff, and things with vars
