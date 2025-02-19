@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='gss.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favs/gss.ico') }}">
+    <script src="https://kit.fontawesome.com/4a94c21782.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<body>
+    <h2>GSS</h2>
+    <form method="POST" action="/GSS">
+        <label for="htmlinput">HTML</label>
+        <textarea name="htmlinput" rows="10" cols="50"></textarea><br>
+        <label for="cssinput">CSS</label>
+        <textarea name="cssinput" rows="10" cols="50"></textarea><br>
+        <input type="submit" value="Put in order!">
+    </form>
+    {% if cssresult %}
+        <pre><code>{{ cssresult }}</code></pre>
+    {% endif %}
+</body>
+</body>
+</html>
