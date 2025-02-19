@@ -1,5 +1,6 @@
 import json
 from bs4 import BeautifulSoup
+import re
 
 
 def mainGSS(htmlinput, cssinput):
@@ -40,7 +41,6 @@ def mainGSS(htmlinput, cssinput):
             element = soup.select_one(selector.replace(":hover", ""))
             hoverorderstuff = 1
         else:
-            logging.error(selector)
             element = soup.select_one(selector)
             hoverorderstuff = 0
 
@@ -63,14 +63,12 @@ def mainGSS(htmlinput, cssinput):
 
         for item in splits:
             if item:
-                logging.error(f"item {item}")
                 itemsplits = item.split("{")
                 selectorstuff = itemsplits[0].strip()
                 propertys_with_values = itemsplits[1].strip()
                 all_propertys_with_values_together = [item.strip() for item in propertys_with_values.split(";") if item]
                 all_propertys_with_values_nice = []
                 for propwithvalue in all_propertys_with_values_together:
-                    logging.error(f"propwithvalue {propwithvalue}")
                     itemsplitstuff = propwithvalue.split(":")
                     prop_this_prop = itemsplitstuff[0].strip()
                     all_propertys_with_values_nice.append({
