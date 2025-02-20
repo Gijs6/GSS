@@ -17,7 +17,7 @@
             try {
                 const successful = document.execCommand('copy');
             } catch (err) {
-                console.error('Kopieer niet gelukt: ', err);
+                console.error('COMPLETLY FAILED: ', err);
             }
             window.getSelection().removeAllRanges();
         }
@@ -29,19 +29,21 @@
         <h1>GSS - Great Style Sequence</h1>
         <p>Simply put in your HTML and your CSS code and your CSS code will be sorted based on the HTML and based on the properties!</p>
     </div>
-    <form method="POST" action="/GSS">
-        <div class="formfieldscontainer {% if cssresult %}min{% endif %}">
-            <div class="formfield">
-                <label for="htmlinput">HTML</label>
-                <textarea name="htmlinput"></textarea>
+    {% if not cssresult %}
+        <form method="POST" action="/gss/result">
+            <div class="formfieldscontainer {% if cssresult %}min{% endif %}">
+                <div class="formfield">
+                    <label for="htmlinput">HTML</label>
+                    <textarea name="htmlinput"></textarea>
+                </div>
+                <div class="formfield">
+                    <label for="cssinput">CSS</label>
+                    <textarea name="cssinput"></textarea>
+                </div>
             </div>
-            <div class="formfield">
-                <label for="cssinput">CSS</label>
-                <textarea name="cssinput"></textarea>
-            </div>
-        </div>
-        <input type="submit" value="Put in order!">
-    </form>
+            <input type="submit" value="Put in order!">
+        </form>
+    {% endif %}
     {% if cssresult %}
         <div id="result">
             <button onclick="copyToClipboard()">Copy <i class="fa-solid fa-copy"></i></button>
